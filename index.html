@@ -8,7 +8,9 @@
   <title>Web前端-张浩玉</title>
 
   <style>
-/*原谅我省事一下 就不另写CSS了  ZZZZZ */	
+/*原谅我省事一下 就不另写CSS了  ZZZZZ */
+/*原谅我省事一下 就不另写CSS了  ZZZZZ */
+/*原谅我省事一下 就不另写CSS了  ZZZZZ */	  
 body{
 	  font-family: 'microsoft yahei',Arial,sans-serif;
 	}
@@ -60,12 +62,7 @@ body{
 	  padding: 50px;
 	}
 
-	.footer{
-	  margin: 30px 0 30px;
-	  padding: 35px;
-	  background: #CFC;
-	  color: #FFF;
-	}
+
 </style>
 </head>
 <body>
@@ -77,7 +74,7 @@ body{
       <!--  添加颜色//-->
       <h1 class="text-primary">Haoyu ZHANG</h1>
       <!--  添加图标 //-->
-      <p><span class="glyphicon glyphicon-paperclip"></span> 前端工程师</p>
+	    <p><a download="Web前端-张浩玉"><span class="glyphicon glyphicon-paperclip"></span> 前端工程师</a></p>
     </div>
     
     <div class="col-lg-3 col-md-3 col-xs-12">
@@ -161,6 +158,13 @@ body{
 			<p class="clearfix"></p>
           </p>
         </div>
+	    <div class="cbox green">
+          <h4>扫一扫，有惊喜哦~~！！</h4>
+          <p>
+		 <img src="wechat.png" style="width:150px;height:150px">
+		  <img src="zz.png" style="width:150px;height:150px">
+          </p>
+        </div>
       </div>
     
     </div>
@@ -216,10 +220,6 @@ body{
   </div>
 </div>
 
-<!-- 定义简历页底 //-->
-<div class="container">
-  <div class="row"><div class="footer text-center"><img src="wechat.png" style="width:150px;height:150px;"></div></div>
-</div>
 
 <!-- 引入jQuery类库和Bootstrap3的Javascript类库 //-->
 <script type='text/javascript' src="jquery.js"></script>
@@ -235,12 +235,12 @@ $(function(){
 	$.getScript('zhy.js',function(){
 	  
 	  var zhdata = [{
-			label: '中文水平',
-			value: 90,
+			label: '编程水平',
+			value: 85,
 			highlight: "#FFC870",
 			color: "#F7464A"
 		}, {
-			value: 10,
+			value: 15,
 			color: "#EEEEEE"
 		}
 		]
